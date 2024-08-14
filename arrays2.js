@@ -18,8 +18,8 @@ function isArrayLengthOdd(numbers) {
   }
 }
 
-let numbers = [1, 2, 3];
-console.log(isArrayLengthOdd(numbers));
+let numbers = [1, 2, 3, 4, 5];
+console.log(isArrayLengthOdd([1, 2, 3, 4]));
 
 /**Task2
  * isArrayLengthEven(numbers):
@@ -39,7 +39,7 @@ function isArrayLengthEven(numbers) {
     return false;
   }
 }
-console.log(isArrayLengthEven(numbers));
+console.log(isArrayLengthEven([1, 2, 3, 4]));
 
 /**task3
  * addLailaToArray(instructors):
